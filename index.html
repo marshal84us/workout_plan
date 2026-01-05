@@ -29,10 +29,20 @@
             color: #1a1a2e;
         }
         
+        body.light-mode .header h1 {
+            background: linear-gradient(90deg, #1a5276, #2874a6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
         body.light-mode .exercise-card,
         body.light-mode .info-box {
-            background: rgba(0, 0, 0, 0.05);
+            background: rgba(255, 255, 255, 0.8);
             border-color: rgba(0, 0, 0, 0.1);
+        }
+        
+        body.light-mode .exercise-name {
+            color: #1a1a2e;
         }
         
         body.light-mode .exercise-target,
@@ -40,32 +50,110 @@
             color: #555;
         }
         
+        body.light-mode .exercise-duration {
+            background: rgba(0, 150, 200, 0.15);
+            color: #0077aa;
+        }
+        
+        body.light-mode .set-counter .count {
+            background: rgba(0, 150, 200, 0.15);
+            color: #0077aa;
+        }
+        
+        body.light-mode .set-counter .count.complete {
+            background: rgba(39, 174, 96, 0.2);
+            color: #1e8449;
+        }
+        
+        body.light-mode .timer-display {
+            color: #1a1a2e;
+        }
+        
+        body.light-mode .timer-display.warning {
+            color: #c0392b;
+        }
+        
         body.light-mode .day-box {
-            background: rgba(0, 0, 0, 0.05);
+            background: rgba(255, 255, 255, 0.6);
         }
         
         body.light-mode .day-box .day-name {
-            color: #555;
+            color: #333;
+        }
+        
+        body.light-mode .day-box .workout-type {
+            color: #1a1a2e;
+        }
+        
+        body.light-mode .day-box.core-a {
+            background: rgba(58, 123, 213, 0.15);
+            border-color: rgba(58, 123, 213, 0.4);
+        }
+        
+        body.light-mode .day-box.core-b {
+            background: rgba(142, 68, 173, 0.15);
+            border-color: rgba(142, 68, 173, 0.4);
+        }
+        
+        body.light-mode .day-box.cardio {
+            background: rgba(231, 76, 60, 0.15);
+            border-color: rgba(231, 76, 60, 0.4);
+        }
+        
+        body.light-mode .day-box.rest {
+            background: rgba(46, 204, 113, 0.15);
+            border-color: rgba(46, 204, 113, 0.4);
+        }
+        
+        body.light-mode .section-title {
+            color: #1a5276;
+        }
+        
+        body.light-mode .circuit-label {
+            background: #2874a6;
         }
         
         body.light-mode .rounds-info {
             background: rgba(0, 100, 200, 0.1);
+            color: #0077aa;
+        }
+        
+        body.light-mode .info-box h3 {
+            color: #0077aa;
         }
         
         body.light-mode .info-box ul {
-            color: #555;
+            color: #444;
         }
         
         body.light-mode .info-box li {
-            border-bottom-color: rgba(0, 0, 0, 0.05);
+            border-bottom-color: rgba(0, 0, 0, 0.08);
+        }
+        
+        body.light-mode .info-box li strong {
+            color: #1a1a2e;
         }
         
         body.light-mode .rest-card {
-            background: rgba(46, 204, 113, 0.15);
+            background: rgba(46, 204, 113, 0.12);
+            border-color: rgba(46, 204, 113, 0.3);
+        }
+        
+        body.light-mode .rest-card .rest-label,
+        body.light-mode .rest-card .rest-time {
+            color: #1e8449;
         }
         
         body.light-mode .header p {
             color: #666;
+        }
+        
+        body.light-mode .heart-rate-box {
+            box-shadow: 0 4px 15px rgba(231, 76, 60, 0.2);
+        }
+        
+        body.light-mode .progress-bar {
+            background: rgba(0, 0, 0, 0.1);
         }
         
         /* Theme toggle button */
